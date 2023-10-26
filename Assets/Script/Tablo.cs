@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Tablo : MonoBehaviour
+{
+    public GameObject canvas;
+    // Start is called before the first frame update
+    private void OnMouseDown()
+    {
+        canvas.SetActive(true);
+    }
+
+    // Update is called once per frame
+    
+    public void Exit()
+    {
+        canvas.SetActive(false);
+    }
+}
